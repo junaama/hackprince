@@ -1,0 +1,59 @@
+.bodyHome {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    align-items: center;
+    font-family: san-serif;
+}
+
+.Title {
+    width: fill-container;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.text {
+    background-color: rgb(0, 225, 255);
+    border-radius: 10px;
+}
+
+.header{
+    font-size: 75px;
+    color: white;
+}
+
+.headingText{
+    font-size: 75px;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.information {
+    margin-top: 30px;
+}
+
+.infoText {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.Source {
+    align-items: right;
+    margin-top: 10px;
+}
+
+.signUp {
+    margin-top: 20px;
+    background-color:blue ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 4px;
+}

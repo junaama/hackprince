@@ -7,6 +7,7 @@ import Register from './components/UserAuth/Register'
 import Login from './components/UserAuth/Login'
 import Nav from './components/Layout/Nav'
 import Footer from './components/Layout/Footer'
+import Generator from './components/Generator'
 import {Route,Switch} from 'react-router'
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Nav/>
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route path="/dashboard" component={Dashboard}/>
+        <Route path="/dashboard" component={Generator}/>
         <Route path="/recipe" component={Recipe}/>
+        <Route path="/generator" component={Generator}/>
       </Switch>
       <Footer/>
     </div>

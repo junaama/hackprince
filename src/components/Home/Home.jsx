@@ -7,7 +7,7 @@ const Home = () => {
         <div className="bodyHome">
             <div className="Title">
                 <span className="header"> 
-                    Our Name
+                    Amealiorate
                 </span>
             </div>
             <div className="about">

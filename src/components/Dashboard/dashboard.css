@@ -12,8 +12,10 @@
 .left {
     width: 20vw;
     height: 100vh;
-    background-color: rgb(0, 255, 255);
+    background-color: #a0522d;
     border-radius: 15px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
+
 }
 
 .right {
@@ -21,6 +23,7 @@
     width: 70vw;
     height: 100vh;
     border-style: dashed;
+    border-color: #a0522d;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -29,7 +32,8 @@
 
 .Header {
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Marck Script';
     color: white;
 }
 
@@ -37,8 +41,9 @@
     margin-top: 30px;
     background-color: green;
     width: 60vw;
-    height: 45vh;
+    height: 40vh;
     border-radius: 15px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 .mealPlan {
@@ -47,6 +52,7 @@
     width: 60vw;
     height: 45vh;
     border-radius: 15px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 .calendar {
@@ -56,34 +62,40 @@
 }
 
 .breakfast {
+    font-family: 'Jaldi';
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     width: 18vw;
     height: 25vh;
-    background-color:lightgreen;
+    background-color:#ACE1AF;
     border-radius: 5px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 .lunch {
+    font-family: 'Jaldi';
     margin-top: 20px;
     margin-right: 20px;
     width: 18vw;
     height: 25vh;
-    background-color: lightgreen;
+    background-color: #ACE1AF;
     border-radius: 5px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 .dinner {
+    font-family: 'Jaldi';
     margin-top: 20px;
     margin-right: 20px;
     width: 18vw;
     height: 25vh;
-    background-color: lightgreen;
+    background-color: #ACE1AF;
     border-radius: 5px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 
 .mealHeader {
-    font-size: 20px; 
+    font-size: 28px; 
 }

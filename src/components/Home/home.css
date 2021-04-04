@@ -1,30 +1,41 @@
+
 .bodyHome {
     margin-top: 10vh;
     margin-bottom: 10vh;
     margin-left: 7vw;
     margin-right: 7vw;
     align-items: center;
-    font-family: san-serif;
+    font-family: 'Marck Script', san-serif;
 }
 
 .Title {
     width: fill-container;
-    background-color: blue;
+    height: 30vh;
+    background-color: #a0522d;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border-color: green;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 .text {
-    background-color: rgb(0, 225, 255);
+    background-color: #ACE1AF;
     border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 .header{
-    font-size: 75px;
+    font-size: 120px;
     color: white;
+    padding-top: 6vh;
 }
 
 .headingText{
-    font-size: 75px;
+    margin-top: 10px;
+    font-size: 70px;
 }
 
 .about {
@@ -37,23 +48,28 @@
 
 .infoText {
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: justify;
+    font-family: 'Jaldi';
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .Source {
     align-items: right;
     margin-top: 10px;
+    font-family: 'Jaldi'
 }
 
 .signUp {
     margin-top: 20px;
-    background-color:blue ;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color:#a0522d ;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-right: 30px;
     padding-left: 30px;
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     border-radius: 4px;
+    font-family: 'Jaldi'
 }

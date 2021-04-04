@@ -12,8 +12,10 @@
 .leftRecipe {
     width: 20vw;
     height: 100vh;
-    background-color: lightgreen;
+    background-color: #ACE1AF;
     border-radius: 15px;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
+
 }
 
 .rightRecipe {
@@ -31,4 +33,7 @@
     height: 100vh;
     border-radius: 10px;
     border-style: dashed;
+    border-color: #a0522d;
+    box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.13);
+
 }

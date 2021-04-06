@@ -1,0 +1,16 @@
+.mp-div {
+    padding: 25px;
+
+}
+.mp-ctn button{
+    padding: .7rem;
+    font-size: 18px;
+    border: none;
+    background-color: lightgreen;
+}
+
+.mp-recipes {
+    padding: 25px;
+    border: 2px solid lightgray;
+    
+}
